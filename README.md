@@ -13,13 +13,14 @@
 
 | 包名          | 详情                                      | 
 |   :---:        |              :----:                     |    
-| api           | 网络请求配置信息                           | 
-| interfaces   | 接口                                       | 
+| api           | 网络请求配置信息 （就是放网址的地方）        | 
+| interfaces   | 接口  （用于数据的传递）                      | 
 | mode          | 用于获取网络数据，等其他功能模块  （属于M层） | 
+| data          | 用于存放用Gson 解析使用的Bean 类  （属于M层）|
 | presenter     | 用于ui与model进行交互用  （属于P层）        | 
-| ui            | 用于ui界面制作 (也就是V层)                  | 
+| ui            | 用于ui界面制作 (属于V层)                  | 
 | utils           | 存放一些小工具                            | 
-| MainActivity   | 主界面（也属于V层）                        | 
+| MainActivity   | 主界面（属于V层）                        | 
 | MyApp         | 小工具专用生命周期                          | 
 | base          | 生命周期封装                                | 
 | net           | 网络请求封装                                | 
