@@ -27,7 +27,12 @@ public abstract class CommonSubscriber<T> extends ResourceSubscriber<T> {
 
     @Override
     public void onError(Throwable t) {
-        //LoadingUtil.getInstance().hideLoading();
+        /**
+         *  在此处DeBug可以获取报错信息。
+         * @param if(callback == null) return;
+         * @return
+         */
+//        LoadingUtil.getInstance().hideLoading();
         if(callback == null) return;
         if(errorMsg != null && TextUtils.isEmpty(errorMsg)){
             callback.fail(errorMsg);
