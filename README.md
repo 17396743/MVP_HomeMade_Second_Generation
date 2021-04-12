@@ -8,7 +8,7 @@
 
 ## 使用：
 
-比如通过修改或新建的方式在api,interfaces,mode,presenter,ui,utils等包中进行创作。
+比如，通过修改或新建的方式在api,interfaces,mode,presenter,ui,utils等包中进行创作。
 
 
 | 包名          | 详情                            | 
