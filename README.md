@@ -11,18 +11,18 @@
 比如，通过修改或新建的方式在api,interfaces,mode,presenter,ui,utils等包中进行创作。
 
 
-| 包名          | 详情                            | 
-|   :---:        |              :----:            |    
-| api           | 网络请求配置信息                | 
-| interfaces   | 接口                             | 
-| mode          | 用于获取网络数据，等其他功能模块  | 
-| presenter     | 用于ui与model进行交互用          | 
-| ui            | 用于ui界面制作                   | 
-| utils           | 存放一些小工具                  | 
-| MainActivity   | 主界面                          | 
-| MyApp         | 小工具专用生命周期               | 
-| base          | 生命周期封装                    | 
-| net           | 网络请求封装                    | 
+| 包名          | 详情                                      | 
+|   :---:        |              :----:                     |    
+| api           | 网络请求配置信息                           | 
+| interfaces   | 接口                                       | 
+| mode          | 用于获取网络数据，等其他功能模块  （属于M层） | 
+| presenter     | 用于ui与model进行交互用  （属于P层）        | 
+| ui            | 用于ui界面制作 (也就是V层)                  | 
+| utils           | 存放一些小工具                            | 
+| MainActivity   | 主界面（也属于V层）                        | 
+| MyApp         | 小工具专用生命周期                          | 
+| base          | 生命周期封装                                | 
+| net           | 网络请求封装                                | 
 
 
 
