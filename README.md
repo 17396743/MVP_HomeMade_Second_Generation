@@ -10,7 +10,7 @@ MVP自制框架第二代
 请通过修改或新建的方式
 api,interfaces,mode,presenter,ui,utils中进行创作。
 
-包名|详情|
+|包名|详情|
 
 
 ```
