@@ -12,7 +12,7 @@ api,interfaces,mode,presenter,ui,utils中进行创作。
 
 
 | 包名      | 详情 | 
-| :---        |    :----:   |    
+| :---:        |    :----:   |    
 | api      | 网络请求配置信息       | 
 | interfaces   | 接口        | 
 | mode   | 用于获取网络数据，等其他功能模块        | 
@@ -21,9 +21,10 @@ api,interfaces,mode,presenter,ui,utils中进行创作。
 | utils   | 存放一些小工具        | 
 | MainActivity   | 主界面        | 
 | MyApp   | 小工具专用生命周期        | 
-
+| base   | 生命周期封装        | 
+| net   | 网络请求封装        | 
 
 
 
 ## 注意：
-### 不必要的话，尽量不要修改base,net里面的代码，因为那片区域已经进行了高难度封装，算是mvp中的核心。
+### 不必要的话，尽量不要修改里面的代码，因为那片区域已经进行了高难度封装，算是mvp中的核心。
