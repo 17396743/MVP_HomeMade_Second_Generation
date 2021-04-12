@@ -9,12 +9,16 @@ MVP自制框架第二代
 ## 使用：
 请通过修改或新建的方式
 api,interfaces,mode,presenter,ui,utils中进行创作。
-```
-```api ``` 网络请求配置信息
-```interfaces ``` 接口
-```mode ``` 用于获取网络数据，等其他功能模块
-```presenter ``` 用于ui与model进行交互用
 
+包名|详情|
+
+
+```
+api ``` 网络请求配置信息
+interfaces ``` 接口
+mode ``` 用于获取网络数据，等其他功能模块
+presenter ``` 用于ui与model进行交互用
+```
 ui：用于ui界面制作
 utils：存放一些小工具
 
