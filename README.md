@@ -11,11 +11,10 @@ MVP自制框架第二代
 api,interfaces,mode,presenter,ui,utils中进行创作。
 
 |包名|详情|
-名字|性别|生日|
-
-–|--|–|
-
-张三|男|2000.1.1|
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
 
 
 ```
