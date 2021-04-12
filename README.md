@@ -7,24 +7,30 @@ MVP自制框架第二代
 #### 此框架，已做成模板，可直接下载使用。
 
 ## 使用：
-请通过修改或新建的方式
-api,interfaces,mode,presenter,ui,utils中进行创作。
+
+比如通过修改或新建的方式在api,interfaces,mode,presenter,ui,utils等包中进行创作。
 
 
-| 包名      | 详情 | 
-| :---:        |    :----:   |    
-| api      | 网络请求配置信息       | 
-| interfaces   | 接口        | 
-| mode   | 用于获取网络数据，等其他功能模块        | 
-| presenter   | 用于ui与model进行交互用        | 
-| ui   | 用于ui界面制作        | 
-| utils   | 存放一些小工具        | 
-| MainActivity   | 主界面        | 
-| MyApp   | 小工具专用生命周期        | 
-| base   | 生命周期封装        | 
-| net   | 网络请求封装        | 
+| 包名          | 详情                            | 
+|   :---:        |              :----:            |    
+| api           | 网络请求配置信息                | 
+| interfaces   | 接口                             | 
+| mode          | 用于获取网络数据，等其他功能模块  | 
+| presenter     | 用于ui与model进行交互用          | 
+| ui            | 用于ui界面制作                   | 
+| utils           | 存放一些小工具                  | 
+| MainActivity   | 主界面                          | 
+| MyApp         | 小工具专用生命周期               | 
+| base          | 生命周期封装                    | 
+| net           | 网络请求封装                    | 
 
 
 
 ## 注意：
-### 不必要的话，尽量不要修改里面的代码，因为那片区域已经进行了高难度封装，算是mvp中的核心。
+### 不必要的话，尽量不要修改以下区域的代码
+### base里面的代码，那片区域已经进行了高难度封装，算是mvp中的核心。
+### net里面的代码，只能改放主域名的那个地方，其他尽量不要改。
+### interfaces里面的代码，尽量不要动Callback,IBasePresenter,IBaseView,IModel里面的代码，这些也经过封装，
+### api里面的ServiceApi文件必须存在！
+
+
