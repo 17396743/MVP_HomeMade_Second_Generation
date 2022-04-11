@@ -1,4 +1,3 @@
-# MVP_HomeMade_Second_Generation
 # MVP自制框架第二代
 
 # [点我预览框架](https://github1s.com/17396743/MVP_HomeMade_Second_Generation)
